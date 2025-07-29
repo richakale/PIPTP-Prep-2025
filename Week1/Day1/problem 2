@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int a = 1;
+    int count = 0;  // to count how many times the loop runs
+
+    while (a < 5) {
+        a = a + 2;
+        count++;
+    }
+
+    printf("The loop executed %d times\n", count);
+    printf("Final value of a: %d\n", a);
+
+    return 0;
+}
+
+outtput:The loop runs 2 times.
+       Final a = 5.
